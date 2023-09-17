@@ -8,5 +8,9 @@ const soustraction = (nb1, nb2)=>{
     return nb3 * nb4;
  }
 
- export { soustraction, multiplication };
+//Fonction de convertion de température fahrenheit en celcus
+const tempConvert = (farenh) => {
+   return parseInt((farenh-32)/1.8);
+}
+ export { soustraction, multiplication, tempConvert };
  
